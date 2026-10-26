@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header class="header grid-header">
+    <header class="header grid-layout">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
@@ -29,8 +29,8 @@
         <img
           class="header__logo-image"
           src="./images/logo-black.svg"
-          alt="Логотип"
-        />
+          alt="Оно тебе надо - логотип аукциона"
+        >
       </a>
 
       <address class="address header__address">
@@ -60,12 +60,12 @@
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
-            <span class="word-spacing-extended_0-9">Аукцион</span>
-            <span class="word-spacing-extended_0-8">вещей,</span>
-            <span class="word-spacing-extended_0-9">в</span>
-            <span class="word-spacing-extended_0-8">которые</span>
-            <span class="word-spacing-extended_0-9">никто</span>
-            <span class="word-spacing-extended_0-8">не</span>
+            <span class="word-spacing-extended">Аукцион</span>
+            <span class="word-spacing-extended">вещей,</span>
+            <span class="word-spacing-extended">в</span>
+            <span class="word-spacing-extended">которые</span>
+            <span class="word-spacing-extended">никто</span>
+            <span class="word-spacing-extended">не</span>
             <span class="no-word-spacing">верил</span>
           </p>
           <button class="bet-button">Сделать ставку</button>
@@ -73,16 +73,16 @@
       </section>
 
       <section class="lots">
-        <h1 class="lots__heading">Лоты</h1>
+        <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <div class="card__content">
-                  <h2 class="card__title">
+                  <h3 class="card__title">
                     Фильм режиссёра, который бросил киношколу
-                  </h2>
+                  </h3>
                   <p class="card__text">
                     Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                     ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -97,10 +97,10 @@
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <div class="card__content">
-                  <h2 class="card__title">
+                  <h3 class="card__title">
                     Книга, где описан один скучный день из жизни рекламного
                     агента
-                  </h2>
+                  </h3>
                   <p class="card__text">
                     Объёмом почти в тысячу страниц. Иногда без знаков препинания
                     и с переходами на древнеанглийский. В ней одновременно
@@ -118,9 +118,9 @@
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <div class="card__content">
-                  <h2 class="card__title">
+                  <h3 class="card__title">
                     Картина, которую повторит даже 5-летний сын маминой подруги
-                  </h2>
+                  </h3>
                   <p class="card__text">
                     Ну действительно, там линия, тут кружочек, а здесь и вовсе
                     что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -143,7 +143,7 @@
                 src="./images/logo-white.svg"
                 alt="Логотип аукциона"
                 class="about__logo-image"
-              />
+              >
             </div>
           </div>
           <div class="about__column-right">
@@ -173,10 +173,10 @@
         </div>
       </section>
     </main>
-    <footer class="footer grid-footer">
+    <footer class="footer grid-layout">
       <address class="address footer__address">
         <span>
-          <a class="footer__link link-phone" href="tel:+9995555555" class="link"
+          <a class="footer__link link-phone" href="tel:+9995555555"
             >+9 999 555 5555</a
           >
         </span>
@@ -184,7 +184,6 @@
           <a
             class="footer__link link-email"
             href="mailto:info@sobaka.ge"
-            class="link"
             >info@sobaka.ge</a
           >
         </span>
@@ -217,7 +216,7 @@
               src="./images/yt.svg"
               alt="YouTube"
               class="footer__social-icon"
-            />
+            >
           </a>
         </li>
         <li class="footer__social-list-item">
@@ -231,7 +230,7 @@
               src="./images/vk.svg"
               alt="ВКонтакте"
               class="footer__social-icon"
-            />
+            >
           </a>
         </li>
         <li class="footer__social-list-item">
@@ -245,7 +244,7 @@
               src="./images/pinterest.svg"
               alt="Pinterest"
               class="footer__social-icon"
-            />
+            >
           </a>
         </li>
       </ul>

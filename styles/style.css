@@ -1,15 +1,13 @@
 .header {  
   align-items: center;
-  height: 293px;
+  padding: 92px 50px 96px;
 }
 
 
-.grid-header,
-.grid-footer {
+.grid-layout {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   width: 100%;
-  padding: 0 50px;
   font-size: 18px;
 }
 
@@ -150,12 +148,8 @@
   line-height: 28px;
 }
 
-.word-spacing-extended_0-8 {
-  margin-right: 0.8em;
-}
-
-.word-spacing-extended_0-9 {
-  margin-right: 0.9em;
+.word-spacing-extended {
+  margin-right: 0.85em;
 }
 
 .no-word-spacing {
@@ -164,14 +158,13 @@
 
 .bet-button {
   width: 256px;
-  height: 51px;
   display: inline-block;
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
   font-size: 22px;
   text-transform: uppercase;
-  padding: 8px 16px;
+  padding: 11px 31px;
   flex-shrink: 0;
   cursor: pointer;
 }
@@ -220,16 +213,13 @@
   overflow: hidden;
   aspect-ratio: 334 / 596;
   width: 100%;
-  box-sizing: border-box;
-}
-
-.card_type_film,
-.card_type_book,
-.card_type_picture {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  display: flex;
 }
+
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
@@ -244,8 +234,8 @@
 }
 
 .card__content {
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+  position: relative;
+  inset: 0;
   padding: 48px 40px;
   z-index: 1;
   display: flex;
@@ -281,7 +271,6 @@
 
 .about {
   max-width: 1052px;
-  min-height: 595px;
   margin: 120px auto 180px;
   padding: 0;
 }
@@ -320,12 +309,11 @@
 
 .about__column-right {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  min-height: 595px;  
+  flex-direction: column; 
 }
 
 .about-content {
+  margin-top: 132px;
   margin-left: 25px;
   margin-bottom:0;
 }
@@ -343,7 +331,6 @@
   flex-direction: column;
   gap: 24px;
   max-width: 688px;
-
   margin-right: 5px;
   margin-bottom: 0;
 }
@@ -357,7 +344,7 @@
 
 .footer {
   align-items: start;
-  height: 180px;
+  padding: 0 50px 82px 50px;
 }
 
 .footer__menu-list {
