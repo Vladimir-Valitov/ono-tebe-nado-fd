@@ -112,14 +112,8 @@
   white-space: nowrap;
 }
 
-.aligned-text_left,
-.aligned-text_center,
-.aligned-text_right {
-  margin-right: -0.29em;  
-}
-
 .aligned-text_left {
-  text-align: left
+  text-align: left;
 }
 
 .aligned-text_center {
